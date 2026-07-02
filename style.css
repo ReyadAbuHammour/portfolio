@@ -760,18 +760,7 @@ scroll-margin-top: 8rem;
 }
 
 .hero-avatar {
-    width: 100%;
-    height: max-content;
-
-    
-    transform: translate(1.35rem, 1.45rem);
-
-    opacity: 60%;
-    
-
-    object-fit: cover;
-
-    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+    display:none;
 }
 
 

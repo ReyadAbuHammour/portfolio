@@ -244,6 +244,11 @@ body {
     transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
+.hero-avatar:hover {
+
+    filter: drop-shadow(0px 0px 20px var(--accent));
+
+}
 
 
 .about-section {

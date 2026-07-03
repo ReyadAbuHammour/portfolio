@@ -720,6 +720,12 @@ scroll-margin-top: 8rem;
         width: 90%; 
     }
 
+  .reyadtech-section {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 3rem 1rem;
+    }
 
 .reyadtech-image {
     

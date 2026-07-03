@@ -234,7 +234,8 @@ body {
 .hero-avatar {
     width: 100%;
     height: max-content;
-    
+
+    opacity: 85%;
     
     transform: translate(8rem, 2rem);
     

@@ -729,11 +729,9 @@ scroll-margin-top: 8rem;
         padding: 1rem 1rem;
     }
     
-    /* .hero-avatar {
-        transform: translate(0, 0); 
-        width: 150px; 
-        margin-top: 2rem;
-    } */
+    .hero-avatar {
+        display: none;
+    } 
     
     .hero-btns {
         align-items: center;

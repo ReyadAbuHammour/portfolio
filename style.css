@@ -700,8 +700,22 @@ scroll-margin-top: 8rem;
 @media (max-width: 768px) {
     
     
+    
+    
+    
     #head_ul {
         visibility: hidden; 
+    }
+
+    .about-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-text {
+        max-width: 80%;
     }
     
     .theme-btn {
@@ -712,12 +726,22 @@ scroll-margin-top: 8rem;
         flex-direction: column;
         height: auto; 
         text-align: center;
-        padding: 1.5rem;
+        padding: 1rem 1rem;
     }
+    
+    /* .hero-avatar {
+        transform: translate(0, 0); 
+        width: 150px; 
+        margin-top: 2rem;
+    } */
     
     .hero-btns {
         align-items: center;
         margin: 1.5rem 0;
+    }
+
+    .skills-section{
+        margin-top: 6rem;
     }
 
     .skill-card {
@@ -732,14 +756,23 @@ scroll-margin-top: 8rem;
     }
     
     .project-card {
-        width: 90%; 
+        width: 70%; 
+        
     }
 
-  .reyadtech-section {
+    .contact-section {
+        display: flex;
         flex-direction: column;
-        height: auto;
-        text-align: center;
-        padding: 3rem 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .reyadtech-section{
+        padding: 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
 .reyadtech-image {
@@ -750,20 +783,24 @@ scroll-margin-top: 8rem;
 }
 
 .reyadtech-avatar {
-    width: 100px;
-    height: 100px;
-    
-    margin-right: 1rem;
-    margin-bottom: 10rem;
-
-    object-fit: contain;
-
-    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+    display: none;
 }
 
-  .hero-avatar {
-    display:none;
-  }
+/* .hero-avatar {
+    width: 100%;
+    height: max-content;
+
+    
+    transform: translate(1.35rem, 1.45rem);
+
+    opacity: 60%;
+    
+
+    object-fit: cover;
+
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+} */
+
 
 
 

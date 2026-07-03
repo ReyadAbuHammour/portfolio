@@ -232,7 +232,16 @@ body {
 }
 
 .hero-avatar {
-    display:none;
+    width: 100%;
+    height: max-content;
+    
+    
+    transform: translate(8rem, 2rem);
+    
+
+    object-fit: cover;
+
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 
